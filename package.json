@@ -1,12 +1,19 @@
 {
   "name": "restaurante-api",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "API REST para la gestión de reservaciones de un restaurante",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/index.js"
   },
-  "keywords": [],
+  "keywords": [
+    "nodejs",
+    "express",
+    "postgresql",
+    "jwt",
+    "rest-api",
+    "swagger"
+  ],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
