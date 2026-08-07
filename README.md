@@ -43,40 +43,23 @@ El sistema permite que los clientes puedan registrarse, iniciar sesión, consult
 ---
 
 ## 📂 Estructura del proyecto
-text
-restaurante-api/
-│
-├── database/
-│   └── schema.sql
-│
-├── src/
-│   │
-│   ├── config/
-│   │   ├── database.js
-│   │   ├── jwt.js
-│   │   └── swagger.js
-│   │
-│   ├── controllers/
-│   │   ├── authController.js
-│   │   ├── mesasController.js
-│   │   └── reservacionesController.js
-│   │
-│   ├── middlewares/
-│   │   ├── authMiddleware.js
-│   │   └── roleMiddleware.js
-│   │
-│   ├── routes/
-│   │   ├── authRoutes.js
-│   │   ├── mesasRoutes.js
-│   │   └── reservacionesRoutes.js
-│   │
-│   └── index.js
-│
-├── .env.example
-├── .gitignore
-├── package.json
-├── package-lock.json
-└── README.md
+Estructura del proyecto
+
+- database/
+  - schema.sql — Estructura y datos iniciales de PostgreSQL.
+
+- src/
+  - config/ — Configuración de PostgreSQL, JWT y Swagger.
+  - controllers/ — Lógica de los usuarios, mesas y reservaciones.
+  - middlewares/ — Autenticación JWT y control de roles.
+  - routes/ — Rutas de la API.
+  - index.js — Archivo principal del servidor.
+
+- .env.example — Plantilla de variables de entorno.
+- .gitignore — Archivos y carpetas que Git no debe subir.
+- package.json — Dependencias y configuración del proyecto.
+- package-lock.json — Versiones exactas de las dependencias.
+- README.md — Documentación del proyecto.
 ---
 
 ## ⚙️ Instalación
