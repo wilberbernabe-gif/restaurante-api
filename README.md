@@ -43,8 +43,40 @@ El sistema permite que los clientes puedan registrarse, iniciar sesión, consult
 ---
 
 ## 📂 Estructura del proyecto
-restaurante-api │ ├── database │   └── schema.sql │ ├── src │   ├── config │   │   ├── database.js │   │   ├── jwt.js │   │   └── swagger.js │   │ │   ├── controllers │   ├── middlewares │   ├── routes │   └── index.js │ ├── .env.example ├── package.json └── README.md
-
+text
+restaurante-api/
+│
+├── database/
+│   └── schema.sql
+│
+├── src/
+│   │
+│   ├── config/
+│   │   ├── database.js
+│   │   ├── jwt.js
+│   │   └── swagger.js
+│   │
+│   ├── controllers/
+│   │   ├── authController.js
+│   │   ├── mesasController.js
+│   │   └── reservacionesController.js
+│   │
+│   ├── middlewares/
+│   │   ├── authMiddleware.js
+│   │   └── roleMiddleware.js
+│   │
+│   ├── routes/
+│   │   ├── authRoutes.js
+│   │   ├── mesasRoutes.js
+│   │   └── reservacionesRoutes.js
+│   │
+│   └── index.js
+│
+├── .env.example
+├── .gitignore
+├── package.json
+├── package-lock.json
+└── README.md
 ---
 
 ## ⚙️ Instalación
@@ -167,28 +199,6 @@ Puede:
 - Gestionar mesas.
 - Consultar todas las reservas.
 - Cambiar estados de reservaciones.
-
----
-
-## 📁 Estructura del proyecto
-
-
-restaurante-api
-│
-├── database
-│   └── schema.sql
-│
-├── src
-│   ├── config
-│   ├── controllers
-│   ├── middlewares
-│   ├── routes
-│   └── index.js
-│
-├── .env.example
-├── package.json
-└── README.md
-
 
 ---
 
