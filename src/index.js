@@ -59,6 +59,6 @@ app.use("/api/mesas", mesasRoutes);
 app.use("/api/reservaciones",reservacionesRoutes);
 
 
-app.listen(PORT, () => {
-    console.log("Servidor ejecutandose en http://localhost:3000");
+app.listen(PORT,() =>{
+    console.log("Servidor ejecutandose en el puerto" + PORT);
 });
