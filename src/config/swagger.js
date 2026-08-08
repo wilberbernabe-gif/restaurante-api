@@ -24,6 +24,11 @@ const swaggerOptions = {
             {
                 url: "http://localhost:3000",
                 description: "Servidor local"
+            },
+            {
+                url:
+                "https://restaurante-api-production-bb91.up.railway.app",
+                description: "Servidor en Railway"
             }
 
         ],
